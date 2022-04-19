@@ -17,6 +17,8 @@ def logo():
     st.sidebar.image(logo)
 
 def header():
+    tip_map = Image.open('images/pyportfolio_banier.png')
+    st.image(tip_map, use_column_width=True)
     html_temp = """
     <div style="background-color:black;padding:0px">
     <h2 style="color:white;text-align:center;">Python Portfolio </h2>   
