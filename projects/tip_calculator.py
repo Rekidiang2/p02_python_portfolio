@@ -43,8 +43,6 @@ def tip_calculator_about():
             """)
 def tip_calculator():
     st.header("Shared Bill Tip Calculator")
-    image = Image.open('images/tip.JPG')
-    st.image(image, use_column_width=True)
     tot_bill = st.number_input("What was the total bill ? ")
     split_num = 1
     split_num = st.number_input("How many people to split the bill ?")

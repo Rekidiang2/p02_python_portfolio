@@ -19,13 +19,8 @@ def logo():
 def header():
     tip_map = Image.open('images/pyportfolio_banier.png')
     st.image(tip_map, use_column_width=True)
-    html_temp = """
-    <div style="background-color:black;padding:0px">
-    <h2 style="color:white;text-align:center;">Python Portfolio </h2>   
-    <h4 style="color:red;text-align:center;">My python learning journey in projects </h4>
-    </div><br>"""
-    st.markdown(html_temp, unsafe_allow_html=True)
-    st.markdown('<style>h1{color: blue;}</style>', unsafe_allow_html=True)
+    st.markdown("""---""")
+    
 
 
 
