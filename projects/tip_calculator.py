@@ -45,7 +45,7 @@ def tip_calculator():
     st.header("Shared Bill Tip Calculator")
     tot_bill = st.number_input("What was the total bill ? ")
     split_num = 1
-    split_num = st.number_input("How many people to split the bill ?")
+    split_num = st.number_input("How many people to split the bill ?", 1)
     tip_perc = st.slider(
         "What percentage tip would you like to give ?", 5, 15, 10)
     if st.button("Calculate"):
