@@ -25,6 +25,7 @@ def header():
 
 
 def footer():
+    st.markdown("""---""")
    
     footerr = """
             <div style="background-color:white;padding:1px">
