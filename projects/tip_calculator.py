@@ -39,8 +39,10 @@ def tip_calculator_about():
         tip_table = Image.open('images/tip_table.JPG')
         st.image(tip_table, use_column_width=True)
         st.markdown("""
-            ## 3) Logical digram
+            ## 3) Flowchart
             """)
+        tipcalc = Image.open('images/flowchart/tip_calculator.png')
+        st.image(tipcalc, use_column_width=True)
 def tip_calculator():
     st.header("Shared Bill Tip Calculator")
     tot_bill = st.number_input("What was the total bill ? ")
