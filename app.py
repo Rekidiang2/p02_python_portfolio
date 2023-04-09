@@ -23,7 +23,7 @@ def main():
     menu = ["Home", "Tip Calculator", "BMI", "Life Calendar",
             "Odd or Even Year", "Love Calculator", "Leap Year", "Treasure Island", 
             "Banker Roulette", "Rock-Paper-Scisors", "Password Generator", 
-            "Hangman"]
+            "Hangman", "Unix epoch timestamp convertor"]
     choice = st.sidebar.radio("Menu", menu)
     # siderbar method
     #st.write(dir(st.sidebar))
@@ -40,6 +40,8 @@ def main():
         pass #odd_or_even()
     elif choice == "Love Calculator":
         pass #love_calculator()
+     elif choice == "Unix epoch timestamp convertor":
+        pass #timestamp()
 
 
     footer()
