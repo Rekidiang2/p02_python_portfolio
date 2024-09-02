@@ -40,8 +40,8 @@ def main():
         pass #odd_or_even()
     elif choice == "Love Calculator":
         pass #love_calculator()
-     elif choice == "Unix epoch timestamp convertor":
-        pass #timestamp()
+     #elif choice == "Unix epoch #timestamp convertor":
+        #pass #timestamp()
 
 
     footer()
